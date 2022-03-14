@@ -1,12 +1,15 @@
 # my-project
 
-LOCAL LOCAL LOCAL
-GITHUB GITHUB GITHUB
+const ANOTHER_CONST = CONSTANT.'; Aurevoir le monde !';
+echo ANOTHER_CONST;
 
+const ANIMALS = array('chien', 'chat', 'oiseaux');
+echo ANIMALS[1]; // affiche "chat"
 
-texte
-
-
-LOCAL LOCAL LOCAL
-GITHUB GITHUB GITHUB
-
+// Tableaux constant
+define('ANIMALS', array(
+    'chien',
+    'chat',
+    'oiseaux'
+));
+echo ANIMALS[1]; // affiche "chat"
